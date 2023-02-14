@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from rest_framework import routers, serializers, viewsets
+from rest_framework import routers
 from api_django.views import ClienteViewSet
 
 router = routers.DefaultRouter()
